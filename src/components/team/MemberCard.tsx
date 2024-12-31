@@ -1,6 +1,6 @@
 import React from "react";
-import { TeamMember } from "../interfaces";
 import { Github, Linkedin, Instagram, Twitter } from "lucide-react";
+import { TeamMember } from "./interfaces";
 
 interface TeamMemberCardProps {
   teamMember: TeamMember;
