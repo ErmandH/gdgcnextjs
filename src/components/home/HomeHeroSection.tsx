@@ -2,8 +2,11 @@
 
 import Link from "next/link";
 import { TypedText } from "@/components/home/TypedText";
+import { useLocale, useTranslations } from "next-intl";
 
 export function HomeHeroSection() {
+  const t = useTranslations("HomeHeroSection");
+  const locale = useLocale()
   return (
     <div className="relative h-screen overflow-hidden bg-white">
       {/* Animated blobs */}
@@ -20,24 +23,23 @@ export function HomeHeroSection() {
                 <TypedText />
               </h1>
               <p className="mt-3 text-base text-gray-600 sm:mt-5 sm:text-lg sm:max-w-xl md:mt-5 md:text-xl mx-auto lg:mx-0">
-                Teknoloji dünyasını keşfetmek, bilgi paylaşmak ve harika
-                şeyler inşa etmek için bizimle yola çıkın.
+                {t("heroTitle")}
               </p>
               <div className="mt-5 sm:mt-8 flex flex-col sm:flex-row justify-center lg:justify-start gap-3">
                 <div>
                   <Link
-                    href="/about"
+                    href={`/${locale}/about`}
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-full text-white bg-blue-500 hover:bg-blue-600 transition duration-300"
                   >
-                    Başlayın
+                    {t("startNow")}
                   </Link>
                 </div>
                 <div>
                   <Link
-                    href="/events"
+                    href={`/${locale}/events`}
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-full text-blue-500 bg-blue-50 hover:bg-blue-100 transition duration-300"
                   >
-                    Etkinlikleri Görüntüle
+                    {t("viewEvents")}
                   </Link>
                 </div>
               </div>

@@ -5,25 +5,8 @@ import { usePathname } from "next/navigation";
 import Image from "next/image";
 import { cn } from "@/lib/utils";
 import { useEffect, useState } from "react";
-import LanguageDropdown from "./LanguageDropdown";
-
-const navigation = [
-  { name: "Ana Sayfa", href: "/" },
-  { name: "Hakkımızda", href: "/about" },
-  {
-    name: "Etkinliklerimiz",
-    href: "#",
-    children: [
-      { name: "Etkinlikler", href: "/events" },
-      { name: "ULGAN", href: "/ulgan" },
-      { name: "Solution Challenge", href: "/solution-challenge" },
-    ],
-  },
-  { name: "Ekibimiz", href: "/team" },
-  { name: "Blog", href: "/blog" },
-  { name: "SSS", href: "/faqs" },
-  { name: "İletişim", href: "/contact" },
-];
+import LocaleSwitcher from "./LocaleSwitcher";
+import { useLocale, useTranslations } from "next-intl";
 
 export function Navbar() {
   const pathname = usePathname();
@@ -53,6 +36,26 @@ export function Navbar() {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+
+  const locale = useLocale();
+  const t = useTranslations("Navigation");
+  const navigation = [
+    { name: t("home"), href: `/${locale}/` },
+    { name: t("about"), href: `/${locale}/about` },
+    {
+      name: t("events.title"),
+      href: "#",
+      children: [
+        { name: t("events.main"), href: `/${locale}/events` },
+        { name: t("events.ulgan"), href: `/${locale}/ulgan` },
+        { name: t("events.solutionChallenge"), href: `/${locale}/solution-challenge` },
+      ],
+    },
+    { name: t("team"), href: `/${locale}/team` },
+    { name: t("blog"), href: `/${locale}/blog` },
+    { name: t("faqs"), href: `/${locale}/faqs` },
+    { name: t("contact"), href: `/${locale}/contact` },
+  ];
 
   return (
     <nav
@@ -167,7 +170,7 @@ export function Navbar() {
             </div>
           </div>
           <div className="hidden xl:flex xl:items-center xl:space-x-4">
-		  	<LanguageDropdown />
+            <LocaleSwitcher />
           </div>
 
           {/* Mobile menu button */}
@@ -282,7 +285,7 @@ export function Navbar() {
             )
           )}
           <div className="pt-4">
-		  	<LanguageDropdown />
+            <LocaleSwitcher />
           </div>
         </div>
       </div>

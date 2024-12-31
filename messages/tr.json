@@ -1,0 +1,161 @@
+{
+  "Features": {
+    "aboutUsTitle": "Biz Kimiz?",
+    "aboutUsParagraph": "Teknolojiyi sadece bir araç olarak değil, ülkemizin yarınlarına ışık tutacak bir rehber olarak görüyoruz.",
+    "discoverEvents": "Etkinliklerimizi keşfet",
+	  "learnMore": "Daha fazla bilgi",
+    "communityTitle": "Teknoloji tutkunlarından oluşan dinamik bir topluluk",
+    "communityParagraph": "Her hafta düzenlediğimiz etkinlikler, workshoplar ve sosyal buluşmalarla hem kendimizi geliştiriyor hem de eğleniyoruz. Siz de bu enerjik topluluğun bir parçası olmak ister misiniz?",
+    "sectionHeader": {
+      "title": "Topluluğumuz",
+      "subtitle": "Neler Sunuyoruz?",
+      "description": "Geliştiriciler, tasarımcılar ve teknoloji meraklılarından oluşan canlı topluluğumuza katılın."
+    },
+    "featuresList": [
+      {
+        "name": "Atölyeler & Etkinlikler",
+        "description": "Becerilerinizi geliştirmek için düzenli atölyeler, hackathonlar ve teknoloji konuşmaları."
+      },
+      {
+        "name": "Öğrenme Kaynakları",
+        "description": "Özel öğrenme materyallerine ve kaynaklara erişim."
+      },
+      {
+        "name": "Networking",
+        "description": "Benzer düşünen bireyler ve sektör profesyonelleriyle bağlantı kurun."
+      },
+      {
+        "name": "Proje Fırsatları",
+        "description": "Gerçek projeler üzerinde çalışın ve pratik deneyim kazanın."
+      }
+    ]
+  },
+  "HomeHeroSection": {
+    "heroTitle": "Teknoloji dünyasını keşfetmek, bilgi paylaşmak ve harika şeyler inşa etmek için bizimle yola çıkın.",
+    "startNow": "Başlayın",
+    "viewEvents": "Etkinlikleri Görüntüle",
+    "welcome": "GDGC IUC'ye Hoşgeldiniz!"
+  },
+  "NewsletterSection": {
+    "title": "Bültene Ücretsiz Kaydol",
+    "description": "Son gelişmelerden haberdar olmak için ücretsiz şekilde bültenimize kaydolabilirsin!",
+    "emailPlaceholder": "E-posta",
+    "button": "Kaydol"
+  },
+  "LatestBlogs": {
+    "title": "Son Yazılar",
+    "readMore": "Devamını Oku"
+  },
+  "Footer": {
+    "socialMedia": "Sosyal Medya",
+    "aboutUs": "Biz Kimiz?",
+    "aboutUsDescription": "GDG on Campus IUC, İstanbul Üniversitesi-Cerrahpaşa çatısı altında kurulmuş Google tabanlı global bir öğrenci kulübüdür.",
+    "contact": "İletişim",
+    "latestPosts": "Son Yazılar",
+    "instagram": "Instagram",
+    "linkedin": "LinkedIn",
+    "copyright": "2024 Google Developer Groups on Campus İstanbul Üniversitesi-Cerrahpaşa"
+  },
+  "Contact": {
+    "form": {
+      "title": "Bize Ulaşın",
+      "description": "24 saat içinde size geri döneceğiz.",
+      "firstName": "Ad",
+      "lastName": "Soyad",
+      "email": "E-posta",
+      "message": "Mesajınız",
+      "submitButton": "Gönder",
+      "sending": "Gönderiliyor...",
+      "successTitle": "Mesajınız gönderildi!",
+      "successDescription": "En kısa sürede size geri döneceğiz."
+    },
+    "hero": {
+      "title": "Bizimle İletişime Geçin",
+      "description": "Bir sorunuz mu var veya iş birliği yapmak mı istiyorsunuz? Mesaj bırakın."
+    },
+	"info": {
+      "title": "İletişim Bilgileri",
+      "description": "Buradayız! Aşağıdaki kanallardan bize ulaşabilirsiniz.",
+      "email": {
+        "label": "E-posta",
+        "value": "contact@gdgoncampusiuc.com"
+      },
+      "address": {
+        "label": "Adres",
+        "line1": "İstanbul Üniversitesi Avcılar Kampüsü,",
+        "line2": "Bağlariçi Cd. No:7, 34320, Avcılar/İstanbul"
+      },
+	  "social": {
+        "instagram": "Instagram",
+        "linkedin": "LinkedIn"
+      }
+	}
+  },
+  "Navigation": {
+    "home": "Ana Sayfa",
+    "about": "Hakkımızda",
+    "events": {
+      "title": "Etkinliklerimiz",
+      "main": "Etkinlikler",
+      "ulgan": "ULGAN",
+      "solutionChallenge": "Solution Challenge"
+    },
+    "team": "Ekibimiz",
+    "blog": "Blog",
+    "faqs": "SSS",
+    "contact": "İletişim"
+  },
+  "Blog":{
+    "description":"Kulubümüz ile ilgili son gelişmeleri takip edin."
+  },
+  "AboutUs": {
+    "title":"Hakkımızda",
+    "hero": {
+      "title": "Biz kimiz",
+      "description": "Geliştiricilerden, yenilikçilerden ve teknoloji meraklılarından oluşan bir topluluğuz. Teknoloji aracılığıyla anlamlı bir etki yaratmak için birlikte çalışıyoruz."
+    },
+    "community": {
+      "title": "Topluluğumuz",
+      "description": "Google Developer Groups on Campus (GDG on Campus); 100’den fazla ülkede 2100’den fazla kulüp altında 250 binden fazla üye içeren ve sadece GDG on Campus üyelerinin katılabildiği Solution Challenge’da 1500’den fazla takım ile oluşan Google tabanlı global bir ekosistemdir. Böyle bir kulüp olarak amacımız Google’ın desteği ile siber güvenlik, yapay zekâ, oyun programcılığı, Android, web geliştirme veya Cloud gibi birçok alanda akranlarımızla birlikte öğrenme deneyimi kazanmanın yanı sıra örnek çalışmalarımızı ve çözümlerimizi yerel topluluklara sunmaktır.",
+      "cta": "Aramıza Katıl"
+    },
+    "joinUs": {
+      "title": "Aramıza katıl!",
+      "description": "GDG on Campus - İstanbul Üniversitesi-Cerrahpaşa kolu olarak, İÜC öğrencilerine küresel GDG etkinliklerine katılma imkanı sağlamanın yanında düzenlediğimiz workshop, teknik gezi, teatalk ve eğitimlerle öğrencilerimize kendilerini geliştirme imkanı sunuyoruz. Dünya genelindeki tüm GDG üyelerinin kullandığı GDG platformu sayesinde okulumuzda yapılan bütün etkinliklerimiz duyurulacak ve uluslararası platformlarda tanınırlık ve aktifliğimiz gözler önüne serilecektir."
+    },
+    "mission": {
+      "title": "Misyonumuz",
+      "description": "Geliştiricilerin birlikte öğrenebileceği, paylaşabileceği ve büyüyebileceği işbirlikçi bir ortam yaratmayı hedefliyoruz. Teknolojiyi erişilebilir kılmak ve teknoloji topluluğundaki herkes için fırsatlar yaratmak amacımızdır."
+    },
+    "vision": {
+      "title": "Vizyonumuz",
+      "description": "Teknolojik yenilik ve öğrenme için önde gelen bir platform haline gelerek, fikirlerin geleceğin teknolojisini şekillendiren etkili çözümlere dönüştüğü bir alan olmayı hedefliyoruz."
+    },
+    "stats": {
+      "activeMembers": "Aktif Üyeler",
+      "annualEvents": "Yıllık Etkinlikler",
+      "projectsCompleted": "Tamamlanan Projeler",
+      "workshopHours": "Atölye Saatleri"
+    }
+  },
+  "Events": {
+    "hero": {
+      "title": "Etkinliklerimiz",
+      "description": "İstanbul Üniversitesi-Cerrahpaşa bünyesinde düzenlediğimiz etkinlikleri keşfedin."
+    },
+    "innovate360": {
+      "title": "Innovate 360 Conference",
+      "description": "Google Developer Groups on Campus – IUC olarak, 2024 Mart ayı başında endüstri mühendisliği bünyesinde kurulduk. Kuruluşumuzdan bu yana sergilediğimiz uyum ve adaptasyon sayesinde, hızlıca organize olarak, sadece bir ay gibi kısa bir sürede, 20 Mayıs 2024 tarihinde ilk salon etkinliğimiz olan Innovate 360 Conference’ı başarıyla gerçekleştirdik. İmza etkinliğimiz olan ve daha önce THY, ING Bank, Morfose ve Beije gibi büyük firmaların desteklediği Innovate 360 Conference ile teknoloji dünyasının en güncel ve etkileyici konularını bir araya getirmeyi; enerji sistemlerinden yapay zekaya, uzay teknolojilerinden panel oturumlarına, havacılıktan yenilikçi teknolojilere kadar birçok konuya değinmeyi amaçlıyoruz.",
+      "description2": "Innovate 360 Conference ile okulumuz öğrencilerinin ilgi alanları çerçevesinde daha da bilgilenmesi ve öğrencilerimizle sektörün önde gelen firmalarından değerli konuşmacılarını buluşturarak öğrencilerimizin sosyal ağını geliştirme ve uygun staj fırsatları yakalamalarına imkan sağlıyoruz.",
+      "description3": "Geçen sene ilkini düzenlediğimiz ve konuşmacılarımızdan pozitif geribildirim aldığımız bu etkinliğimizle şirketler geleceğin mühendisleriyle şimdiden tanışıp onlara kendi iş tecrübelerini aktararak daha nitelikli yeni mezun mühendislerin ön plana çıkmasına yardımcı olurlar ve ülkemizin gelişmesine öncülük ederler."
+      
+    },
+    "monthlyActivities": {
+      "title": "Aylık Etkinliklerimiz",
+      "description": "İÜC Google Geliştirici Öğrenci Kulübü olarak salon etkinliğimizin yanı sıra...",
+      "description2": "Türkiye'nin önde gelen araştırma üniversitelerinden biri olan İstanbul Üniversitesi-Cerrahpaşa'nın mezunları ile öğrencilerini bir araya getirecek mentorluk programları da düzenleyerek, bilgi ve deneyim paylaşımını artıracağız. İzlediğimiz bu yol ile, okulumuzun vizyonuna ve misyonuna sadık öğrenciler yetiştirilmesine öncü olacağız. Düzenleyeceğimiz etkinliklerle hem akademik hem de profesyonel anlamda güçlü bir topluluk oluşturmak hedefimizdir.",
+      "description3": "Genel olarak tüm kulüp faaliyetlerimizle, öğrenci merkezli eğitime net bir destek veriyoruz. Etkinliklerimizde, öğrencilerin kendi öğrenme süreçlerinde aktif rol alabilecekleri, öğrenimlerini zenginleştirecek deneyimlere odaklanıyoruz. Üniversitemizin de önem verdiği bu yaklaşımla öğrencilerimizin hem teknik hem de sosyal becerilerini geliştirmelerine katkı sağlıyoruz."
+    }
+  }
+  
+}

@@ -1,5 +1,6 @@
 "use client";
 
+import { useTranslations } from "next-intl";
 import Link from "next/link";
 
 // Örnek blog verisi
@@ -31,12 +32,14 @@ const blogPosts = [
 ];
 
 export default function LatestBlogs() {
+  const t = useTranslations("LatestBlogs");
+
   return (
     <section className="py-12 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Başlık */}
         <div className="text-center mb-8">
-          <h2 className="text-3xl sm:text-4xl font-bold text-gray-800">Son Yazılar</h2>
+          <h2 className="text-3xl sm:text-4xl font-bold text-gray-800">{t("title")}</h2>
         </div>
 
         {/* Kartlar Grid */}
@@ -65,7 +68,7 @@ export default function LatestBlogs() {
                   href={post.link}
                   className="inline-block px-4 py-2 text-sm text-white bg-blue-500 rounded-full hover:bg-blue-600 transition-colors"
                 >
-                  Devamını Oku
+                  {t("readMore")}
                 </Link>
               </div>
             </div>

@@ -1,8 +1,10 @@
 "use client";
 
-import Link from "next/link";
+import { useTranslations } from "next-intl";
 
 export default function NewsletterSection() {
+  const t = useTranslations("NewsletterSection");
+
   return (
     <div className="relative min-h-[50vh] overflow-hidden bg-white flex items-center justify-center">
       {/* Animated blobs */}
@@ -14,10 +16,10 @@ export default function NewsletterSection() {
       {/* İçerik */}
       <div className="relative z-10 max-w-4xl w-full px-4 sm:px-6 lg:px-8 text-center">
         <h2 className="text-4xl font-bold text-gray-900 sm:text-5xl">
-          Bültene Ücretsiz Kaydol
+          {t("title")}
         </h2>
         <p className="mt-4 text-base text-gray-600 sm:text-lg md:text-xl mx-auto max-w-2xl">
-          Son gelişmelerden haberdar olmak için ücretsiz şekilde bültenimize kaydolabilirsin!
+          {t("description")}
         </p>
 
         {/* Form Alanı */}
@@ -25,10 +27,10 @@ export default function NewsletterSection() {
           <input
             type="email"
             className="flex-1 px-4 py-3 rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-gray-700"
-            placeholder="E-posta"
+            placeholder={t("emailPlaceholder")}
           />
           <button className="px-8 py-3 font-medium rounded-full text-white bg-blue-500 hover:bg-blue-600 transition duration-300">
-            Kaydol
+            {t("button")}
           </button>
         </div>
       </div>
